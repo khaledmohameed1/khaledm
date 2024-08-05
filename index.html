@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>khaled</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<style>
+    @keyframes push {
+        0% {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    .animated-text {
+        animation: push 2.1s ease-in-out 4.2s forwards;
+    }
+</style>
+
+<body>
+    <!-- start navber  -->
+    <nav class="bg-[#2B2829]  fixed w-full z-20 top-0 start-0 border-b border-gray-200 ">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-2">
+            <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="logos2.1b8161b20dd2aa262bbf.png" class="h-16 w-48" alt="Advanced Language Center">
+
+            </a>
+            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+
+                <button data-collapse-toggle="navbar-sticky" type="button" id="hamburger"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
+                    aria-controls="navbar-sticky" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 toggle"
+                id="navbar-sticky">
+                <ul
+                    class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  ">
+                    <li class="md:ml-8">
+                        <a href="index.html"
+                            class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 "
+                            aria-current="page"> Home </a>
+                    </li>
+                    <li>
+                        <a href="about.html"
+                            class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 ">About</a>
+                    </li>
+                    <li>
+                        <a href="courses.html"
+                            class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 ">server</a>
+                    </li>
+                    <li>
+                        <a href="teacher.html"
+                            class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 ">Content
+                            Us</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="md:order-2 flex flex-row gap-5">
+                <button class="bg-[#c89000] p-4 text-white rounded text-xl">
+                    contact us
+                </button>
+                <button class="bg-[#c89000] p-4 text-white rounded text-xl">
+                    contact us
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- end navber -->
+
+
+    <!-- start bg-cover -->
+    <section
+        class="bg-center h-[100vh] bg-no-repeat bg-cover bg-[url('./1213b1ff-9174-496d-a513-6e9b63626b31-1024x604.jpg')] bg-gray-700 bg-blend-multiply">
+        <div class="relative top-[50%] -translate-y-2/4 m-0 text-center lg:py-56">
+            <h1 class="mb-4 text-2xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-3xl">
+                A journey of achievement
+            </h1>
+            <p class="mb-8 text-6xl md:w-[70%] mx-auto font-extrabold text-gray-300 lg:text-6xl sm:px-16 lg:px-48">
+                Our logistics services
+            </p>
+            <h1
+                class="mb-4 push text-2xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-3xl">
+                نkhaled mohamed mohamed
+            </h1>
+            <div class="flex flex-col px-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+                <a href="#"
+                    class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300">
+                    contect
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- end bg-cover -->
+
+    <div class="px-4 space-y-6  py-8 md:py-12 lg:py-20">
+        <div class=" container mx-auto  flex max-w-[58rem] flex-col items-center space-y-4 text-center">
+
+            <h2 class="font-bold text-3xl leading-[1.1] sm:text-3xl md:text-6xl">Rehlat Enjaz Logistics </h2>
+
+            <p class="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7 "
+                style="margin-bottom: 30px; color: #c89000;">
+                Integrated logistics solutions
+            </p>
+
+        </div>
+        <div class="mx-auto container text-[#c89000]">
+
+
+            <div class="flex justify-between gap-5">
+                <div class="flex flex-col gap-5 w-[50%]">
+                    <div class="border rounded-[16px] p-5 flex items-center">
+                        <div class="w-[80%]" style="width: 80%;">
+                            <h2 class="text-2xl font-bold my-3">Our partners </h2>
+                            <p class="text-xl font-medium text-gray-800">Enjaz Logistics Services is a pioneer in the
+                                field of
+                                logistics services, whose services
+                                include
+                                all logistical sectors. </p>
+                        </div>
+                        <div class="w-[20%] flex justify-end">
+                            <img src="hands-solid.svg" alt="" class="w-[60px] h-[60px] " style="color: #c89000;">
+                        </div>
+                    </div>
+
+                    <div class="border rounded-[16px] p-5 flex items-center">
+                        <div class="w-[80%]" style="width: 80%;">
+                            <h2 class="text-2xl font-bold my-3">Our partners </h2>
+                            <p class="text-xl font-medium text-gray-800">Enjaz Logistics Services is a pioneer in the
+                                field of
+                                logistics services, whose services
+                                include
+                                all logistical sectors. </p>
+                        </div>
+                        <div class="w-[20%] flex justify-end">
+                            <img src="hands-solid.svg" alt="" class="w-[60px] h-[60px] " style="color: #c89000;">
+                        </div>
+                    </div>
+
+                    <div class="border rounded-[16px] p-5 flex items-center">
+                        <div class="w-[80%]" style="width: 80%;">
+                            <h2 class="text-2xl font-bold my-3">Our partners </h2>
+                            <p class="text-xl font-medium text-gray-800">Enjaz Logistics Services is a pioneer in the
+                                field of
+                                logistics services, whose services
+                                include
+                                all logistical sectors. </p>
+                        </div>
+                        <div class="w-[20%] flex justify-end">
+                            <img src="hands-solid.svg" alt="" class="w-[60px] h-[60px] " style="color: #c89000;">
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[50%]">
+                    <img src="./1213b1ff-9174-496d-a513-6e9b63626b31-1024x604.jpg" alt=""
+                        class="h-[500px] rounded-[8px]">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <section id="features" class=" px-4 space-y-6 bg-slate-50 py-8 md:py-12 lg:py-20">
+
+        <div class=" container mx-auto  flex max-w-[58rem] flex-col items-center space-y-4 text-center">
+
+            <h2 class="font-bold text-3xl leading-[1.1] sm:text-3xl md:text-6xl">Our logistics services </h2>
+
+            <p class="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
+                We have developed our services with an integrated set of specialized logistical solutions to meet all of
+                our customers’ needs in the supply chain, such as international shipping and customs clearance, in
+                addition to multimodal transportation for large and small shipments, and storage and distribution in all
+                cities of the Kingdom. We have committed ourselves to providing high-end global solutions for the supply
+                chain based on our customers’ requirements and diversifying our logistical services. To serve the import
+                and export system
+            </p>
+
+        </div>
+
+
+        <div
+            class="px-5 grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3 lg:max-w-[80rem]  mt-8  container mx-auto">
+
+            <div>
+                <img src="./Airports.jpg" alt="" class="rounded-[8px] w-[100%] h-[250px]">
+                <h1 class="my-4 text-2xl font-medium">Airports& /Airlines </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quis modi ad similique amet
+                    sunt temporibus deleniti vitae, voluptatem, inventor....
+                </p>
+                <div class="flex justify-end">
+                    <a href="#" class="text-sky-700 hover:text-black">read more</a>
+                </div>
+
+            </div>
+
+            <div>
+                <img src="./Industrial.jpeg" alt="" class="rounded-[8px] w-[100%]  h-[250px]">
+                <h1 class="my-4 text-2xl font-medium">Industrial</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quis modi ad similique amet
+                    sunt temporibus deleniti vitae, voluptatem, inventor....
+                </p>
+                <div class="flex justify-end">
+                    <a href="#" class="text-sky-700 hover:text-black">read more</a>
+                </div>
+
+            </div>
+
+            <div>
+                <img src="./1213b1ff-9174-496d-a513-6e9b63626b31-1024x604.jpg" alt="" class="rounded-[8px] w-[100%]  h-[250px]">
+                <h1 class="my-4 text-2xl font-medium">Maritime </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quis modi ad similique amet
+                    sunt temporibus deleniti vitae, voluptatem, inventor....
+                </p>
+                <div class="flex justify-end">
+                    <a href="#" class="text-sky-700 hover:text-black">read more</a>
+                </div>
+
+            </div>
+
+            <div>
+                <img src="./Defense.jpeg" alt="" class="rounded-[8px] w-[100%]  h-[250px]">
+                <h1 class="my-4 text-2xl font-medium">Defense & Military </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quis modi ad similique amet
+                    sunt temporibus deleniti vitae, voluptatem, inventor....
+                </p>
+                <div class="flex justify-end">
+                    <a href="#" class="text-sky-700 hover:text-black">read more</a>
+                </div>
+
+            </div>
+
+            <div>
+                <img src="./Public Transportation.jpeg" alt="" class="rounded-[8px] w-[100%]  h-[250px]">
+                <h1 class="my-4 text-2xl font-medium">Public Transportation </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quis modi ad similique amet
+                    sunt temporibus deleniti vitae, voluptatem, inventor....
+                </p>
+                <div class="flex justify-end">
+                    <a href="#" class="text-sky-700 hover:text-black">read more</a>
+                </div>
+
+            </div>
+
+            <div>
+                <img src="./Public Safety.webp" alt="" class="rounded-[8px] w-[100%]  h-[250px]">
+                <h1 class="my-4 text-2xl font-medium">Public Safety</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quis modi ad similique amet
+                    sunt temporibus deleniti vitae, voluptatem, inventor....
+                </p>
+                <div class="flex justify-end">
+                    <a href="#" class="text-sky-700 hover:text-black">read more</a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <div class="bg-[#2B2829]">
+        <div class="max-w-screen-lg px-4 sm:px-6 text-white sm:grid md:grid-cols-4 sm:grid-cols-2 mx-auto">
+            <div class="p-5">
+                <h3 class="font-bold text-xl text-indigo-600"></h3>
+                <img src="logos2.1b8161b20dd2aa262bbf.png" alt="" class="h-16 w-48">
+            </div>
+            <div class="p-5">
+                <div class="text-sm uppercase text-white font-bold">Resources</div>
+                <a class="my-3 block" href="/#">Documentation <span class="text-white text-xs p-1"></span></a><a
+                    class="my-3 block" href="/#">Tutorials <span class="text-white text-xs p-1"></span></a><a
+                    class="my-3 block" href="/#">Support <span class="text-white text-xs p-1">New</span></a>
+            </div>
+            <div class="p-5">
+                <div class="text-sm uppercase text-white font-bold">Support</div>
+                <a class="my-3 block" href="/#">Help Center <span class="text-white text-xs p-1"></span></a><a
+                    class="my-3 block" href="/#">Privacy Policy <span class="text-white text-xs p-1"></span></a><a
+                    class="my-3 block" href="/#">Conditions <span class="text-white text-xs p-1"></span></a>
+            </div>
+            <div class="p-5">
+                <div class="text-sm uppercase text-white font-bold">Contact us</div>
+                <a class="my-3 block" href="/#">XXX XXXX, Floor 4 San Francisco, CA
+                    <span class="text-white text-xs p-1"></span></a><a class="my-3 block" href="/#">contact@company.com
+                    <span class="text-white text-xs p-1"></span></a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script>
+    document.getElementById("hamburger").onclick = function toggleMenu() {
+        console.log("dfs")
+        const navToggle = document.getElementsByClassName("toggle");
+        for (let i = 0; i < navToggle.length; i++) {
+            navToggle.item(i).classList.toggle("hidden");
+        }
+    };
+
+</script>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        @keyframes push {
+            0%, 100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+            25%, 75% {
+                opacity: 0;
+                transform: translateX(-100%);
+            }
+        }
+
+        .animated-text {
+            position: relative;
+            display: inline-block;
+            white-space: nowrap;
+            overflow: hidden;
+            height: 1em; /* لضبط ارتفاع العنصر لمنع تغيير ارتفاع العنصر الأب */
+        }
+
+        .animated-text span {
+            position: absolute;
+            top: 0;
+            left: 0;
+            animation: push 8.4s linear infinite;
+            white-space: nowrap;
+        }
+
+        .animated-text .text-1 {
+            animation-delay: 0s;
+        }
+
+        .animated-text .text-2 {
+            animation-delay: 4.2s;
+        }
+    </style>
+</head>
+<body>
+    <section class="bg-center h-[100vh] bg-no-repeat bg-cover bg-[url('./1213b1ff-9174-496d-a513-6e9b63626b31-1024x604.jpg')] bg-gray-700 bg-blend-multiply">
+        <div class="relative top-[50%] -translate-y-2/4 m-0 text-center lg:py-56">
+            <h1 class="mb-4 text-2xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-3xl">
+                A journey of achievement
+            </h1>
+            <p class="mb-8 text-6xl md:w-[70%] mx-auto font-extrabold text-gray-300 lg:text-6xl sm:px-16 lg:px-48">
+                Our logistics services
+            </p>
+            <h1 class="mb-4 text-2xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-3xl animated-text">
+                <span class="text-1">نkhaled mohamed mohamed</span>
+                <span class="text-2">mohmed</span>
+            </h1>
+            <div class="flex flex-col px-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+                <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300">
+                    contect
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
